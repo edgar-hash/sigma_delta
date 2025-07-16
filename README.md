@@ -6,13 +6,11 @@ This repository explores the design, simulation, and implementation of sigma-del
 
 ## Project Overview
 
-Conventional digital control systems for motor applications often rely on complex, bloated software stacks running on general-purpose processors. These systems introduce significant latency, consume considerable power, and require expensive hardware resources—posing a bottleneck in high-performance, real-time applications such as electric propulsion and flight control. In this project, we explore an alternative architecture based on multiplier-less sigma-delta (ΣΔ) controllers to generate three-phase motor drive signals directly from simple feedback logic. By leveraging the inherent noise-shaping and high-resolution properties of sigma-delta modulation, our design eliminates the need for computationally expensive transformations (e.g., Park and Clarke), reduces system complexity, and dramatically improves latency and energy efficiency. 
+Conventional digital control systems for motor applications often rely on complex, bloated software stacks running on general-purpose processors. These systems introduce significant latency, consume considerable power, and require expensive hardware resources—posing a bottleneck in high-performance, real-time applications such as electric propulsion and flight control. In this project, we explore an alternative architecture based on multiplier-less sigma-delta (ΣΔ) controllers to generate three-phase motor drive signals directly from simple feedback logic. By leveraging the inherent noise-shaping and high-resolution properties of sigma-delta modulation, our design aims to remove the need for computationally expensive transformations (e.g., Park and Clarke), reduce system complexity, and dramatically improve latency and energy efficiency. 
 
 The system is implemented in Verilog, targeting FGPGA platforms for real-time control and integration. To analyze performance and optimize energy efficiency, we aim to use Python to simulate motor and power characteristics. Additionally, LTSpice is used to develop and benchmark a reference motor model for cross-validation. Together, these tools support an efficient design pipeline from concept to hardware.
 
-Our work demonstrates the potential of sigma-delta architectures in building lean, power-efficient, and high-performance motor control systems—paving the way for future applications like personal electric flight where every cycle, milliwatt, and gram counts.
-
-This approach lays the groundwork for ultra-lightweight, high-bandwidth control systems that scale to future applications such as personal electric flight, where performance, size, and power are all critically constrained.
+Our work hopes to show the potential of sigma-delta architectures in building ultra-lightweight, high-bandwidth control systems that scale to future applications such as personal electric flight, where performance, size, and power are all critically constrained.
 
 
 ## Repository Structure
