@@ -21,7 +21,7 @@ Our work hopes to show the potential of sigma-delta architectures in building ul
 - `/hardware` – FPGA or ASIC implementations  
 - `/examples` – Sample use cases 
 
----
+
 
 ## To Do List
 
