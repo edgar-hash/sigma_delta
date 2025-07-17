@@ -13,16 +13,6 @@ The system is implemented in Verilog, targeting FGPGA platforms for real-time co
 Our work hopes to show the potential of sigma-delta architectures in building ultra-lightweight, high-bandwidth control systems that scale to future applications such as personal electric flight, where performance, size, and power are all critically constrained.
 
 
-## Repository Structure
-
-- `/src` – Source code and models  
-- `/docs` – Documentation and research papers  
-- `/sim` – Simulation results and test benches  
-- `/hardware` – FPGA or ASIC implementations  
-- `/examples` – Sample use cases 
-
-
-
 ## To Do List
 
 ### 1. Verilator Jupyter Notebook Setup
