@@ -35,7 +35,7 @@ three_phase three_phase_gen(
     forever #5 clk = ~clk;  // 10ns clock period
   end
 
-  integer omega_arg;
+  reg signed [OMEGA_BW-1:0] omega_arg;
   initial begin
     if (!$value$plusargs("omega=%d", omega_arg)) begin
       $display("ERROR: omega not provided via +omega=<val>");
