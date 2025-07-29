@@ -1,3 +1,5 @@
 verilator sd2.v three_phase.v three_phase_tb.v --top three_phase_tb -Wall --binary --timing --trace --trace-depth 1 three_phase_tb.v -Wno-WIDTHEXPAND -Wno-UNUSEDSIGNAL -Wno-EOFNEWLINE -Wno-TIMESCALEMOD -Wno-MODDUP -Wno-SYNCASYNCNET
 
+verilator verilog/sd2.v verilog/three_phase.v verilog/three_phase_tb.v --top three_phase_tb -Wall --binary --timing --trace --trace-depth 1 verilog/three_phase_tb.v -Wno-WIDTHEXPAND -Wno-UNUSEDSIGNAL -Wno-EOFNEWLINE -Wno-TIMESCALEMOD -Wno-MODDUP -Wno-SYNCASYNCNET
+
 ./obj_dir/Vthree_phase_tb
