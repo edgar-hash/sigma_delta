@@ -35,3 +35,4 @@ module counter_modulator #(
     end
 
 endmodule
+
