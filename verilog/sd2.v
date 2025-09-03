@@ -1,3 +1,5 @@
+`timescale 1us/1ns
+
 module sd2(clk, sd_in, bs_out);
 
 // input bitwidth
