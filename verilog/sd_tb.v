@@ -1,4 +1,4 @@
-`timescale  1ns/1ps
+`timescale  1us/1ns
 
 module sd_tb();
 
@@ -29,3 +29,4 @@ initial begin
 
 end
 endmodule
+
