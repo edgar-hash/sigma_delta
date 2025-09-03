@@ -1,3 +1,3 @@
 verilator modulator.v counter_modulator.v sd2.v three_phase_shape.v three_phase_shape_tb.v --top three_phase_shape_tb -Wall --binary --timing --trace --trace-depth 1 -Wno-SYNCASYNCNET -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -Wno-UNUSEDPARAM -Wno-WIDTHEXPAND
 
-./obj_dir/Vthree_phase_tb
+./obj_dir/Vthree_phase_shape_tb +omega=50
