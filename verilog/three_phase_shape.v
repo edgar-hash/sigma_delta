@@ -1,6 +1,6 @@
-`timescale 1ns/1ps
+`timescale 1us/1ns
 module three_phase_shape(
-    clk, omega, phaseA, phaseB, phaseC, phaseAx, phaseBx, phaseCx, pwmA, pwmB, pwmC, countA, countB, countC, dbf0, dbf1, dbf2);
+    clk, omega, phaseA, phaseB, phaseC, phaseAx, phaseBx, phaseCx, pwmA, pwmB, pwmC, countA, countB, countC);
 
 // Parameter declarations
 parameter SD_IN_BW = 16;                        // Sigma-delta input bitwidth
